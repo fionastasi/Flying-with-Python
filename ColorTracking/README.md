@@ -78,12 +78,14 @@ Keyboard controls during execution:
 
 ---
 
-## Requirements
-
----
-
 ## Preview
 <p align="center">
   <img src="Color.gif" alt="Color Tracking Demo" width="500"/>
 </p>
+
+---
+
+## Requirements
+```bash
+pip install opencv-python djitellopy numpy
 
