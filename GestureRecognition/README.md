@@ -4,7 +4,6 @@ This project implements real-time hand gesture recognition to control a DJI Tell
 
 A simple graphical interface (sliders) is included to adjust parameters such as flight speed and max height during runtime.
 
-
 ## How It Works
 
 - MediaPipe detects hand landmarks using a standard webcam.
@@ -12,7 +11,6 @@ A simple graphical interface (sliders) is included to adjust parameters such as 
 - Each gesture is mapped to a specific drone command.
 - The system avoids executing any command if the gesture is unclear, ensuring safety.
 - Drone state (airborne or landed) is managed via a toggle gesture (fist).
-
 
 ## Gesture Mapping
 
@@ -31,7 +29,6 @@ A simple graphical interface (sliders) is included to adjust parameters such as 
 
 > Note: Gestures are interpreted frame-by-frame. The drone only reacts when a valid gesture is clearly recognized.
 
-
 ## Key Features
 
 - Real-time gesture recognition with MediaPipe.
@@ -39,17 +36,15 @@ A simple graphical interface (sliders) is included to adjust parameters such as 
 - Easy to extend: new gestures and commands can be added easily.
 - Manual control parameters (speed, height) are adjustable via sliders.
 
-
 ## Preview
 
 <p align="center">
   <img src="Gestures.gif" alt="Hand Gesture Drone Control Demo" width="500"/>
 </p>
 
-
 ## How to Run
 
 1. Connect your PC to the Tello drone’s Wi-Fi.
-2. Run the script:
-   ```bash
-   python gesture_control.py
+2. Run the python script
+3. Use the sliders to adjust parameters
+
