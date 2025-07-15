@@ -4,7 +4,6 @@ This project uses computer vision and PID controllers to autonomously track a co
 
 The drone detects an object based on its color (using HSV filtering), calculates its position relative to the center of the image, and dynamically adjusts its movement to keep the object centered — both horizontally and vertically. It also evaluates distance using the object's contour area to adjust depth.
 
----
 
 ## How It Works
 
@@ -20,7 +19,6 @@ The drone detects an object based on its color (using HSV filtering), calculates
    - **Y (horizontal):** strafe left/right
    - **Z (vertical):** go up/down
 
----
 
 ## Implementation
 
@@ -34,8 +32,6 @@ The drone detects an object based on its color (using HSV filtering), calculates
 - A manual control mode is also included for easier testing.
 
 The drone takes off **automatically** if battery level is above 15% and a valid object is detected. If the battery is low, it lands safely.
-
----
 
 ## Controls
 
@@ -55,7 +51,6 @@ Keyboard controls during execution:
 | `q` | Rotate counterclockwise |
 | `e` | Rotate clockwise       |
 
----
 
 ## How to Run
 
@@ -63,7 +58,6 @@ Keyboard controls during execution:
 2. Run the Python script.
 3. Use the HSV sliders to isolate the target object’s color in the camera feed.
 
----
 
 ## Behavior Summary
 
@@ -76,14 +70,12 @@ Keyboard controls during execution:
   - Too close → move backward
 - Visual lines and status messages appear on screen to aid in calibration and debugging.
 
----
 
 ## Preview
 <p align="center">
   <img src="Color.gif" alt="Color Tracking Demo" width="500"/>
 </p>
 
----
 
 ## Requirements
 ```bash
