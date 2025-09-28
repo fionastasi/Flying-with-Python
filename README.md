@@ -1,6 +1,6 @@
 # Drone Control Projects with DJI Tello
 
-This repository contains two hands-on projects developed with the DJI Tello drone, showcasing real-time control through computer vision and human interaction interfaces. Each system was built using Python, OpenCV, and additional libraries like MediaPipe and djitellopy to explore cyber-physical systems in practice.
+This repository contains two hands-on projects developed with the DJI Tello drone, showcasing real-time control through computer vision and human interaction interfaces. Each system was built using Python, OpenCV, and additional libraries like MediaPipe and djitellopy to explore cyber-physical systems in practice..
 
 
 ## Projects
